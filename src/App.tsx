@@ -9,7 +9,7 @@ const [click,setClick]= useState(0)
   return (
     <>
     {click}
-      <h1>Portolio</h1>
+      <h1>Portfolio</h1>
       <h2>Under construction...</h2>
       <button onClick={()=>setClick(prev=>prev+1)}> Increment</button>
     </>
