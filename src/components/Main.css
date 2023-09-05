@@ -5,7 +5,7 @@
 }
 section {
    
-    min-height: 90vh; /* 100% of the viewport height */
+    min-height: 70vh; /* 100% of the viewport height */
     padding-top: 60px; /* Adjust based on your header height */
   }
   
@@ -22,10 +22,16 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
     /* background-color: #ec24240a; */
-    border: black solid 3px;
+    /* border: black solid 3px; */
     margin: 2rem;
   }
   #projects {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
     /* background-color: #0404e80a; */
   }
   

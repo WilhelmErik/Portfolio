@@ -5,10 +5,10 @@
 
   background: #0f0c29;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #151525, #352765, #0c0a24); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,12 +25,13 @@ body {
 }
 
 a {
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
   text-decoration: inherit;
+  font-size: 1.1em;
 }
 a:hover {
-  color: #946ded;
+  color: rgb(143, 135, 194)
 }
 
 
@@ -39,6 +40,16 @@ h1 {
   font-size: 4.2em;
   line-height: 1.1;
 }
+h2{
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+h3{
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+
 /*
 button {
   border-radius: 8px;
