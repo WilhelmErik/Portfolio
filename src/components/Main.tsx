@@ -1,6 +1,5 @@
 import "./Main.css";
 import Typewriter from "typewriter-effect";
-import SkillCard from "./SkillCard";
 import SkillSection from "./SkillSection";
 // import { useState } from "react";
 
