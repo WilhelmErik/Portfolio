@@ -1,5 +1,5 @@
 header {
-    
+  
     padding:0 20px;
     display: flex;
     position: sticky;
@@ -21,15 +21,15 @@ header {
     list-style-type: none;
   }
   a{
-    color: white;
+    color: var(--faded-purple);
    
   }
-  .header-icons{
+  /* .header-icons{
     justify-content: end;
     align-items: center;
     display: flex;
     width: 30%;
-  }
+  } */
   .header-icons a {
     margin: 0 20px;
   }
@@ -43,3 +43,23 @@ header {
   .name-logo img{
     margin-right: 2rem;
   }
+.header-name{
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  header {
+   
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+    
+  }
+  nav{
+    width: 100%;
+  }
+  .name-logo{
+    max-width: none;
+    
+     }
+
+}

@@ -11,7 +11,7 @@ export default function Header() {
         />
         </a>
         <a href="#aboutMe">
-          <h3>Albin Lundström | Portfolio</h3>
+          <h3 className="header-name">Albin Lundström | Portfolio</h3>
         </a>
       </div>
       <nav>

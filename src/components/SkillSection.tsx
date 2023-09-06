@@ -29,7 +29,7 @@ export default function SkillSection() {
   ];
 
   return (
-    <div className="skill-section">
+    <div className="skill-section ">
       {skills.map((skill) => {
         return (
           <div className="skill-card" key={skill.name}>

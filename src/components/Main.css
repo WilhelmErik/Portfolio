@@ -5,7 +5,7 @@
 }
 section {
    
-    min-height: 70vh; /* 100% of the viewport height */
+    min-height: 75vh; /* 100% of the viewport height */
     padding-top: 60px; /* Adjust based on your header height */
   }
   
@@ -35,4 +35,6 @@ flex-direction: column;
     /* background-color: #0404e80a; */
   }
   
- 
+  .my-name{
+  
+  }
