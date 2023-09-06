@@ -3,9 +3,18 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: dark;
-  background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #151525, #352765, #0c0a24); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0f0c29;  /* fallback for old browsers 
+  background: -webkit-linear-gradient(to bottom, #24243e, #302b63, #0f0c29);  
+  background: linear-gradient(to bottom, #151525, #352765, #0c0a24); 
+
+  */
+
+  background: 
+  linear-gradient(to bottom, rgba(13, 3, 30, 0.7), rgba(40, 26, 64, 0.9)), 
+  url('https://cdn.discordapp.com/attachments/778200649749626891/1148892359191437312/test045.png');
+background-size:cover;
+background-attachment: scroll;
+  
   
   color: rgba(255, 255, 255, 0.96);
   font-synthesis: none;
@@ -18,6 +27,9 @@
 
 
   --faded-purple:rgb(193, 183, 225,0.96);
+
+
+  
 }
 *{
 

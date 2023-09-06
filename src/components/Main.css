@@ -6,7 +6,7 @@
 section {
    
     min-height: 75vh; /* 100% of the viewport height */
-    padding-top: 60px; /* Adjust based on your header height */
+    padding-top: 10rem; /* Adjust based on your header height */
   }
   
   /* If you have specific IDs */
