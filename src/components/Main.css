@@ -4,13 +4,15 @@
   
 }
 section {
-   
-    min-height: 75vh; /* 100% of the viewport height */
-    padding-top: 10rem; /* Adjust based on your header height */
+
+  scroll-margin-top: 100px; 
+    min-height: 70vh;
+    
   }
   
   /* If you have specific IDs */
   #aboutMe {
+    padding-top: 9rem;
     margin: 0 3rem;
     /* background-color: #f0080804; */
     max-width: 70%;
@@ -33,6 +35,17 @@ flex-direction: column;
     flex-direction: column;
     
     /* background-color: #0404e80a; */
+  }
+  .projects-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .projects-container div{
+margin: 3rem;
   }
   
   .my-name{

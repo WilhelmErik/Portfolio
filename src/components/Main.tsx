@@ -13,16 +13,16 @@ const Main: React.FC = () => {
             <span className="my-name" style={{ color: "slateblue" }}>
               Albin{" "}
             </span>
-            ,
+            
             <span>
               <Typewriter
                 options={{
                   strings: [
                     "a Frontend Developer",
-                    "a Student",
-                    "a Problem Solver",
-                    "eager to Learn",
-                    "Looking for Internship",
+                    // "a Student",
+                    // "a Problem Solver",
+                    // "eager to Learn",
+                    "Seeking Internship",
                   ],
                   autoStart: true,
                   loop: true,
@@ -44,8 +44,24 @@ const Main: React.FC = () => {
         <SkillSection />
       </section>
       <section id="projects">
-        <h2>Projects</h2>
-        <h3>Will Link and upload ... soon™</h3>
+      <h2>Projects</h2>
+
+        {/* <div className="projects-container">
+
+        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>a</div>
+
+        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>b</div>
+
+        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>c</div>
+        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>d</div>
+
+        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>e</div>
+
+        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>f</div>
+
+        </div> */}
+        
+        <h3>Projects will be showcased here soon. Stay tuned!</h3>
       </section>
       <h2> </h2>
     </div>

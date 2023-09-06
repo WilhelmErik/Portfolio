@@ -12,8 +12,7 @@ function App() {
     <div style={{textAlign:"center"}}>
     {/* {click} */}
     
-      <h1>Portfolio</h1>
-      <h2>Under construction...</h2>
+    
       {/* <button onClick={()=>setClick(prev=>prev+1)}> Increment</button> */}
       </div>
     </>
