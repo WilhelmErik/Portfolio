@@ -1,0 +1,43 @@
+.project-card{
+    
+    margin:1rem;
+    border-radius: 4%;
+    background-color: rgb(21 16 48/0.5 );
+    backdrop-filter: blur(10px);
+    filter:saturate(0.6)brightness(1);
+    transition: filter 0.3s ease
+}
+.project-card:hover{
+filter: saturate(100%) brightness(120%)
+}
+.project-image{
+    
+    border-radius: 12px;
+    height: 200px;
+    width: 90%;
+    margin: 20px 20px;
+    background-color: rgba(178, 172, 172, 0.1);
+}
+.link-icons{
+    z-index: 222;
+   position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.link-icons  a {
+    margin: 5px;
+  }
+
+  .bad-class{
+    position: relative;
+        min-height: 500px;
+        width: 360px;
+  }
+  @media only screen and (max-width: 600px) {
+    .bad-class{
+        position: relative;
+            min-height: 500px;
+            width: 100%;
+      }
+  
+  }

@@ -1,6 +1,7 @@
 import "./Main.css";
 import Typewriter from "typewriter-effect";
 import SkillSection from "./SkillSection";
+import ProjectSection from "./ProjectSection";
 // import { useState } from "react";
 
 const Main: React.FC = () => {
@@ -13,7 +14,6 @@ const Main: React.FC = () => {
             <span className="my-name" style={{ color: "slateblue" }}>
               Albin{" "}
             </span>
-            
             <span>
               <Typewriter
                 options={{
@@ -44,24 +44,15 @@ const Main: React.FC = () => {
         <SkillSection />
       </section>
       <section id="projects">
-      <h2>Projects</h2>
+        <h2>Projects</h2>
 
-        {/* <div className="projects-container">
+        <div className="projects-container">
 
-        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>a</div>
-
-        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>b</div>
-
-        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>c</div>
-        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>d</div>
-
-        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>e</div>
-
-        <div style={{border:"slateblue solid 2px",height:"400px",width:"360px"}}>f</div>
-
-        </div> */}
+          <ProjectSection/>
         
-        <h3>Projects will be showcased here soon. Stay tuned!</h3>
+        </div>
+
+ 
       </section>
       <h2> </h2>
     </div>

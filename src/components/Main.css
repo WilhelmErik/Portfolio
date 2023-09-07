@@ -44,9 +44,7 @@ flex-direction: column;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .projects-container div{
-margin: 3rem;
-  }
+ 
   
   .my-name{
   
