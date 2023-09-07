@@ -35,7 +35,7 @@ export default function ProjectCard({ project }) {
 
       </div>
       <h3 style={{ color: "white" }}> {project.title}</h3>
-      <p>{project.description}</p>
+      <p className="project-description">{project.description}</p>
 
       <div
         style={{
