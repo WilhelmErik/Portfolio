@@ -1,4 +1,17 @@
-export default function ProjectCard({ project }) {
+
+interface Project {
+  title: string;
+  bgImage: string;
+  tags: string[];
+  description: string;
+  githubLink: string;
+  liveLink?: string;
+}
+interface ProjectCardProps {
+  project: Project;
+}
+
+export default function ProjectCard({ project }:ProjectCardProps) {
   return (
     <div className="bad-class"
       style={{
