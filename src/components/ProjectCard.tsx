@@ -26,7 +26,7 @@ export default function ProjectCard({ project }:ProjectCardProps) {
         }}
       >
         <div className="link-icons">
-        {project.liveLink && <a href={project.liveLink} target="blank" rel="noopener noreferrer">
+        {project.liveLink && <a href={project.liveLink} target="blank" rel="noopener noreferrer" title="Live Preview">
             <span
               className="material-symbols-outlined"
               style={{ fontSize: "44px", color: "white" }}
@@ -36,7 +36,7 @@ export default function ProjectCard({ project }:ProjectCardProps) {
           </a>}
           
           
-          <a href={project.githubLink} target="blank" rel="noopener noreferrer">
+          <a href={project.githubLink} target="blank" rel="noopener noreferrer" title="Github Link">
             {" "}
             <img
               src="https://media.discordapp.net/attachments/1148642371731460096/1148643484874588302/Layer_1.png"

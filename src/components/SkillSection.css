@@ -29,3 +29,6 @@ justify-content: center;
       }
 
   }
+  .half-fade{
+    filter: contrast(0.33) brightness(55%);
+  }
