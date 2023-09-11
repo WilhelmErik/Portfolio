@@ -8,7 +8,7 @@ header {
     top: 0;
     z-index: 1000;
     background: #bdc3c7;  /* fallback for old browsers */
-    background: linear-gradient(to bottom, #020407e7, #211c3c99); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #020407, #211c3cc6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     /* Additional styles */
   }

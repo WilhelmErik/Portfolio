@@ -19,10 +19,10 @@ const Main: React.FC = () => {
                 options={{
                   strings: [
                     "a Frontend Developer",
-                    // "a Student",
+                    "a Student",
                     // "a Problem Solver",
-                    // "eager to Learn",
-                    "Seeking Internship",
+                    "eager to Learn",
+                    //"Seeking Internship",
                   ],
                   autoStart: true,
                   loop: true,
@@ -47,12 +47,8 @@ const Main: React.FC = () => {
         <h2>Projects</h2>
 
         <div className="projects-container">
-
-          <ProjectSection/>
-        
+          <ProjectSection />
         </div>
-
- 
       </section>
       <h2> </h2>
     </div>
